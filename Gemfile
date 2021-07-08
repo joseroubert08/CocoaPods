@@ -43,7 +43,7 @@ group :development do
   gem 'mocha'
   gem 'mocha-on-bacon'
   gem 'prettybacon'
-  gem 'webmock'
+  gem 'webmock', '>= 1.20.4'
 
   # Integration tests
   gem 'diffy'
@@ -53,7 +53,7 @@ group :development do
   gem 'inch_by_inch'
   gem 'rubocop'
 
-  gem 'danger'
+  gem 'danger', '>= 0.10.0'
 end
 
 group :debugging do
